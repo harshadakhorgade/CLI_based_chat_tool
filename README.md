@@ -9,14 +9,20 @@ Building a chat tool with a simple command-line interface which supports multipl
 # Establish ssh Connection
 
 # Follow these Commands
+
 sudo su
+
 sudo apt update
+
 sudo apt upgrade
 
 
 # Create Virtual Environment
+
 sudo apt install python3-venv
+
 python3 -m venv env
+
 . env/bin/activate 
 
 # Create Files
@@ -34,6 +40,7 @@ wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add 
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
 
 sudo apt-get update
+
 sudo apt-get install -y mongodb-org
 
 pip install pymongo
