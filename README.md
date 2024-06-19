@@ -1,5 +1,5 @@
 # CLI_based_chat_tool
-# command-line chat tool
+
 # Objective
 Building a chat tool with a simple command-line interface which supports multiple chat rooms.
 
