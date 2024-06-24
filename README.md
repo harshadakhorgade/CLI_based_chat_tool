@@ -57,3 +57,6 @@ pip install pymongo
 – Join an existing chat room.
 
 • Messages is sent by a client in a chat room should be only broadcasted to same chat room.
+
+# output
+
